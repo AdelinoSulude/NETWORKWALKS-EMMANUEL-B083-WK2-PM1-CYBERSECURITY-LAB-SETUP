@@ -130,16 +130,19 @@ Perform domain and web reconnaissance against `networkwalks.com` using WHOIS, we
 
 ```bash
 whois networkwalks.com
+```
 
 ---
 
 Collected publicly available domain registration information, including the registrar, registration dates, expiration date, WHOIS server, and DNSSEC status.
 
 ### 2. WhatWeb
+
 ```bash
 whatweb networkwalks.com
+```
 
-Identified web technologies including Apache, WordPress, Bootstrap, jQuery, Google Tag Manager, and WordPress Download Manager
+Identified web technologies including Apache, WordPress, Bootstrap, jQuery, Google Tag Manager, and WordPress Download Manager.
 
 ### 3. Nslookup
 ```bash

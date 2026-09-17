@@ -131,6 +131,8 @@ Perform domain and web reconnaissance against `networkwalks.com` using WHOIS, we
 ```bash
 whois networkwalks.com
 
+---
+
 Collected publicly available domain registration information, including the registrar, registration dates, expiration date, WHOIS server, and DNSSEC status.
 
 ### 2. WhatWeb

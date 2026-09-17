@@ -115,3 +115,83 @@ Obtain domain registration information using WHOIS.
 
 ```bash
 whois networkwalks.com
+
+# 🧪 CyberLab — Week 2 | Project Module 1
+
+## 🎯 Objective
+
+Perform domain and web reconnaissance against `networkwalks.com` using WHOIS, web technology fingerprinting, DNS analysis, HTTP header inspection, WAF detection, and DNS enumeration.
+
+---
+
+## 🔎 Reconnaissance Tasks
+
+### 1. WHOIS
+
+```bash
+whois networkwalks.com
+
+Collected publicly available domain registration information, including the registrar, registration dates, expiration date, WHOIS server, and DNSSEC status.
+
+### 2. WhatWeb
+```bash
+whatweb networkwalks.com
+
+Identified web technologies including Apache, WordPress, Bootstrap, jQuery, Google Tag Manager, and WordPress Download Manager
+
+### 3. Nslookup
+```bash
+nslookup networkwalks.com
+
+Resolved networkwalks.com to 192.232.216.135 using DNS server 8.8.8.8.
+
+### 4. Curl
+```bash
+curl -I https://networkwalks.com
+
+Inspected the HTTP response headers and observed an HTTP/2 200 response from an Apache web server.
+
+### 5. Wafw00f
+
+```bash
+wafw00f https://networkwalks.com
+
+Detected ModSecurity (SpiderLabs) as the Web Application Firewall protecting the website.
+
+### 6. DNSRecon
+
+```bash
+dnsrecon -d networkwalks.com
+
+Enumerated DNS records including SOA, A, MX, TXT, and SRV records. The scan reported 8 records.
+
+## 📊 Key Findings
+
+| Tool | Key Finding |
+|---|---|
+| WHOIS | GoDaddy.com, LLC |
+| WhatWeb | Apache, WordPress and other web technologies |
+| Nslookup | `192.232.216.135` |
+| Curl | HTTP/2 `200`, Apache |
+| Wafw00f | ModSecurity (SpiderLabs) |
+| DNSRecon | SOA, A, MX, TXT and SRV records |
+
+## 💡 Key Takeaways
+
+This module provided practical experience in combining different reconnaissance techniques to gather information about a domain, its DNS infrastructure, web technologies, HTTP configuration, and security controls.
+
+The exercise also demonstrated the importance of correlating information from multiple tools during the reconnaissance phase.
+
+---
+
+## 🔐 Ethical Use
+
+All reconnaissance activities were performed for educational purposes as part of the Networkwalks cybersecurity training.
+
+Reconnaissance should only be conducted against systems and domains where appropriate authorization has been granted.
+
+---
+
+## 🛠️ Tools Used
+
+`WHOIS` · `WhatWeb` · `Nslookup` · `Curl` · `Wafw00f` · `DNSRecon` · `Kali Linux`

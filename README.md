@@ -80,12 +80,29 @@ The first module focused on gathering publicly available information about the d
 The following tools were used:
 
 1. WHOIS
-2. WhatWeb
-3. Nslookup
-4. Curl
-5. Wafw00f
-6. DNSRecon
+   ### 📸 Evidence
 
+![WHOIS Output](screenshots/module1/task1-whois.png)
+3. WhatWeb
+### 📸 Evidence
+
+![WhatWeb Output](screenshots/module1/task2-whatweb.jpg)
+4. Nslookup
+### 📸 Evidence
+
+![Nslookup Output](screenshots/module1/task3-nslookup.png)
+5. Curl
+### 📸 Evidence
+
+![Curl HTTP Headers](screenshots/module1/task4-curl.png)
+6. Wafw00f
+### 📸 Evidence
+
+![Wafw00f Output](screenshots/module1/task5-wafw00f.png)
+7. DNSRecon
+### 📸 Evidence
+
+![DNSRecon Output](screenshots/module1/task6-dnsrecon.png)
 ---
 
 ## 🔎 Task 1 — WHOIS

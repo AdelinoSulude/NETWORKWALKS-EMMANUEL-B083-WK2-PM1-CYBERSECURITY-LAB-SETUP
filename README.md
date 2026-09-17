@@ -210,34 +210,21 @@ Reconnaissance should only be conducted against systems and domains where approp
 
 ## 👤 Author
 
-**Adelino Sulude**
+This CyberLab was created and documented by **Adelino Sulude**
+for hands-on cybersecurity practice.
 
-This project was completed as part of the **Networkwalks Cybersecurity Internship Program**.
+**LinkedIn:** [Adelino Sulude](https://www.linkedin.com/in/adelino-sulude/)
 
-I performed the practical exercises, laboratory testing, analysis, and documentation presented in this repository.
+## 🙏 Credits
 
-**Focus:** Network & Infrastructure | Cybersecurity
+The training and lab concepts were learned from:
 
-**LinkedIn:**  
-[Adelino Sulude](https://www.linkedin.com/in/adelino-sulude/)
+- **Waqas Karim** — Cybersecurity Professional, CCIE
+  - Instructor of the cybersecurity training used as a learning reference.
+  - **LinkedIn:** [Waqas Karim](https://www.linkedin.com/in/waqaskarim/)
 
----
+All lab configurations, testing, documentation, and practical experimentation
+were performed by me in my own virtual lab environment.
 
-## 🙏 Training & Credits
-
-This project was developed based on the practical exercises and training provided through the **Networkwalks Cybersecurity Internship Program**.
-
-**Training Instructor:**  
-**Waqas Karim — CCIE**
-
-The internship provided the learning material, project requirements, and practical exercises used as the basis for this work.
-
-All laboratory execution, testing, analysis, and documentation in this repository were performed by **Adelino Sulude** as part of the internship.
-
----
-
-## ⚖️ Disclaimer
-
-This repository is a personal educational record of work completed during the Networkwalks Cybersecurity Internship.
-
-The project should not be considered an official Networkwalks publication or representation of Networkwalks.
+## 📌 Project Information
+Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub

@@ -115,6 +115,7 @@ Obtain domain registration information using WHOIS.
 
 ```bash
 whois networkwalks.com
+```
 
 # 🧪 CyberLab — Week 2 | Project Module 1
 
@@ -147,12 +148,14 @@ Identified web technologies including Apache, WordPress, Bootstrap, jQuery, Goog
 ### 3. Nslookup
 ```bash
 nslookup networkwalks.com
+```
 
 Resolved networkwalks.com to 192.232.216.135 using DNS server 8.8.8.8.
 
 ### 4. Curl
 ```bash
 curl -I https://networkwalks.com
+```
 
 Inspected the HTTP response headers and observed an HTTP/2 200 response from an Apache web server.
 
@@ -160,6 +163,7 @@ Inspected the HTTP response headers and observed an HTTP/2 200 response from an 
 
 ```bash
 wafw00f https://networkwalks.com
+```
 
 Detected ModSecurity (SpiderLabs) as the Web Application Firewall protecting the website.
 
@@ -167,6 +171,7 @@ Detected ModSecurity (SpiderLabs) as the Web Application Firewall protecting the
 
 ```bash
 dnsrecon -d networkwalks.com
+```
 
 Enumerated DNS records including SOA, A, MX, TXT, and SRV records. The scan reported 8 records.
 

@@ -131,8 +131,6 @@ Perform domain and web reconnaissance against `networkwalks.com` using WHOIS, we
 ```bash
 whois networkwalks.com
 
----
-
 Collected publicly available domain registration information, including the registrar, registration dates, expiration date, WHOIS server, and DNSSEC status.
 
 ### 2. WhatWeb
@@ -177,6 +175,8 @@ Enumerated DNS records including SOA, A, MX, TXT, and SRV records. The scan repo
 | Curl | HTTP/2 `200`, Apache |
 | Wafw00f | ModSecurity (SpiderLabs) |
 | DNSRecon | SOA, A, MX, TXT and SRV records |
+
+---
 
 ## 💡 Key Takeaways
 

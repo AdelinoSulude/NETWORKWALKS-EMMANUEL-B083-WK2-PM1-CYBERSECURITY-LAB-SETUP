@@ -1,6 +1,6 @@
 # NETWORKWALKS-EMMANUEL-B083-WK2-PM1-DOMAIN-WEB-FOOTPRINTING
 Week 2 Project
-# 🧪 CyberLab — Week 2 Project
+# 🧪 CyberLab — Week 2 | Module 1: Domain & Web Footprinting
 
 ## 📌 Project Overview
 
